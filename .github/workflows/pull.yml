@@ -22,7 +22,7 @@ jobs:
       run: |
         cd ${GITHUB_WORKSPACE}
 
-        # コミットのためのgitの設定
+        # コミットのためのgitの設定 
         echo 'git initialize'
         git config --global user.name "${GIT_NAME}"
         git config --global user.email "${GIT_MAIL}"
